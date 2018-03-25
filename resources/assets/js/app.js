@@ -1,0 +1,37 @@
+import Vue from 'vue'
+import Moment from 'moment'
+import VueMask from 'vue-the-mask'
+import AddTask from './components/AddTask.vue'
+// import DatePicker from './components/DatePicker.vue'
+import NewTask from './components/NewTask.vue'
+import TodoItem from './components/TodoItem.vue'
+
+/**
+ * First we will load all of this project's JavaScript dependencies which
+ * includes Vue and other libraries. It is a great starting point when
+ * building robust, powerful web applications using Vue and Laravel.
+ */
+
+require('./bootstrap');
+
+
+window.Vue = require('vue');
+
+/**
+ * Next, we will create a fresh Vue application instance and attach it to
+ * the page. Then, you may begin adding components to this application
+ * or customize the JavaScript scaffolding to fit your unique needs.
+ */
+
+Vue.use(VueMask);
+Vue.component('example-component', require('./components/ExampleComponent.vue'));
+Vue.component('app', require('./components/App.vue'));
+Vue.component('todo-item',TodoItem);
+Vue.component('add-task',AddTask);
+Vue.component('new-task',NewTask);
+// Vue.component('date-picker',DatePicker);
+
+
+const app = new Vue({
+    el: '#app'
+});
