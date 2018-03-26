@@ -1,10 +1,12 @@
 import Vue from 'vue'
 import Moment from 'moment'
 import VueMask from 'vue-the-mask'
+import Vuelidate from 'vuelidate'
 import AddTask from './components/AddTask.vue'
 // import DatePicker from './components/DatePicker.vue'
 import NewTask from './components/NewTask.vue'
 import TodoItem from './components/TodoItem.vue'
+
 
 /**
  * First we will load all of this project's JavaScript dependencies which
@@ -23,12 +25,16 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+Vue.use(Vuelidate)
 Vue.use(VueMask);
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
 Vue.component('app', require('./components/App.vue'));
 Vue.component('todo-item',TodoItem);
 Vue.component('add-task',AddTask);
 Vue.component('new-task',NewTask);
+Vue.component('input-email',require('./components/inputs/Email.vue'));
+Vue.component('password',require('./components/inputs/Password.vue'));
+Vue.component('confirm-password',require('./components/inputs/ConfirmPassword.vue'));
+
 // Vue.component('date-picker',DatePicker);
 
 

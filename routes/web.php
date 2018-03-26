@@ -24,3 +24,7 @@ Route::get('/component', function () {
 
 Route::get('/task','TaskController@fetchAll');
 Route::put('/task','TaskController@create');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

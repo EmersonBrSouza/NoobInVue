@@ -4,7 +4,10 @@
         <div class="columns">
             <div class="column">
             <span class="isCentered is-size-1 title">
-                <span>DO<span>MAKE</span></span> 
+                <span>DO<span>MAKE</span></span>
+                <input-email></input-email>
+                <password></password>
+                <confirm-password></confirm-password>
             </span>
             </div>
         </div>

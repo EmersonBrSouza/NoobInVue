@@ -43,4 +43,12 @@ class TaskController extends Controller
 
         return response()->json($response);
     }
+
+    public function toggle(Request $request){
+        
+    }
+
+    public function delete(Request $request){
+        
+    }
 }
