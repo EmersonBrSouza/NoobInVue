@@ -9,15 +9,21 @@ export default {
     props:['method','action'],
     methods:{
         canSubmit(){
+            var response = true;
             this.$children.forEach(function(el,i){
-                if(el.hasError()){
-                    return false;
+                console.log(el.$v.$error);
+                console.log(el.$v);               
+                if(el.$v.$error){
+                    response = false;
                 }
             });
-            return true;
+            console.log(response);
+            return response;
         },
         onSubmit(){
+            EventLine.$emit('verifySelfErrors');
             if(this.canSubmit()){
+                console.log("oi");
                 this.$refs.form.submit();
             }
         }

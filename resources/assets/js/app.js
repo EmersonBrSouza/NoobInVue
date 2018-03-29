@@ -1,10 +1,13 @@
-// import Vue from 'vue'
+import AsyncComputed from 'vue-async-computed'
 import Moment from 'moment'
 import VueMask from 'vue-the-mask'
 import Vuelidate from 'vuelidate'
+
 import AddTask from './components/AddTask.vue'
 import NewTask from './components/NewTask.vue'
 import TodoItem from './components/TodoItem.vue'
+
+
 
 
 /**
@@ -23,9 +26,11 @@ window.EventLine = new Vue({});
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
-
+Vue.use(AsyncComputed)
 Vue.use(Vuelidate)
 Vue.use(VueMask);
+
+
 Vue.component('app', require('./components/App.vue'));
 Vue.component('todo-item',TodoItem);
 Vue.component('add-task',AddTask);

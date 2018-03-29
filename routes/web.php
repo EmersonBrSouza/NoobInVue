@@ -25,7 +25,7 @@ Route::get('/component', function () {
 Route::get('/task','TaskController@fetchAll');
 Route::put('/task','TaskController@create');
 Route::get('/email_exists', function (){
-    return response()->json(true);
+    return response()->json(["exists"=>false]);
 });
 Auth::routes();
 
