@@ -1,11 +1,12 @@
 <template>
-    <form action="" v-on:submit.prevent="onSubmit" ref="form">
+    <form :action="action" :method="method" v-on:submit.prevent="onSubmit" ref="form">
         <slot></slot>
     </form>
 </template>
 
 <script>
 export default {
+    props:['method','action'],
     methods:{
         canSubmit(){
             this.$children.forEach(function(el,i){

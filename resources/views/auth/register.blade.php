@@ -90,10 +90,10 @@
                                 <div class="column is-2"></div>
                                 <div class="column is-7">
                                     {{--  <form method="POST" action="{{ route('register') }}" v-on:submit.prevent>  --}}
-                                    <dynamic-form>
+                                    <dynamic-form action="{{ route('register') }}" method="POST">
                                         @csrf
-                                        <text-field label="Nome" name="name" model="name"></text-field>
-                                        <input-email></input-email>
+                                        <text-field label="Nome" name="name" model="name" :required="true"></text-field>
+                                        <input-email :validate-remote="true" remote-url="/email_exists"></input-email>
                                         <confirm-password label="Senha" confirmation-label="Confirmar Senha"></confirm-password>
                                         <br>
                                         <button class="button is-pulled-right is-info">Create Account</button>

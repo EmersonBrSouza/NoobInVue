@@ -30489,11 +30489,11 @@ Vue.component('app', __webpack_require__(179));
 Vue.component('todo-item', __WEBPACK_IMPORTED_MODULE_5__components_TodoItem_vue___default.a);
 Vue.component('add-task', __WEBPACK_IMPORTED_MODULE_3__components_AddTask_vue___default.a);
 Vue.component('new-task', __WEBPACK_IMPORTED_MODULE_4__components_NewTask_vue___default.a);
-Vue.component('input-email', __webpack_require__(187));
-Vue.component('password', __webpack_require__(209));
-Vue.component('confirm-password', __webpack_require__(212));
-Vue.component('text-field', __webpack_require__(215));
-Vue.component('dynamic-form', __webpack_require__(218));
+Vue.component('password', __webpack_require__(187));
+Vue.component('confirm-password', __webpack_require__(209));
+Vue.component('text-field', __webpack_require__(212));
+Vue.component('dynamic-form', __webpack_require__(215));
+Vue.component('input-email', __webpack_require__(218));
 
 var app = new Vue({
   el: '#app'
@@ -31497,7 +31497,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\AddTask.vue"
+Component.options.__file = "resources/assets/js/components/AddTask.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -31506,9 +31506,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-745944c2", Component.options)
+    hotAPI.createRecord("data-v-227c9a42", Component.options)
   } else {
-    hotAPI.reload("data-v-745944c2", Component.options)
+    hotAPI.reload("data-v-227c9a42", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -31573,7 +31573,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-745944c2", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-227c9a42", module.exports)
   }
 }
 
@@ -31603,7 +31603,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\NewTask.vue"
+Component.options.__file = "resources/assets/js/components/NewTask.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -31612,9 +31612,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-4ace1f9e", Component.options)
+    hotAPI.createRecord("data-v-73bc74de", Component.options)
   } else {
-    hotAPI.reload("data-v-4ace1f9e", Component.options)
+    hotAPI.reload("data-v-73bc74de", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -31886,7 +31886,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-4ace1f9e", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-73bc74de", module.exports)
   }
 }
 
@@ -31916,7 +31916,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\TodoItem.vue"
+Component.options.__file = "resources/assets/js/components/TodoItem.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -31925,9 +31925,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-00b70670", Component.options)
+    hotAPI.createRecord("data-v-14d94da0", Component.options)
   } else {
-    hotAPI.reload("data-v-00b70670", Component.options)
+    hotAPI.reload("data-v-14d94da0", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -32107,7 +32107,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-00b70670", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-14d94da0", module.exports)
   }
 }
 
@@ -65321,7 +65321,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\App.vue"
+Component.options.__file = "resources/assets/js/components/App.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -65330,9 +65330,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-117390fa", Component.options)
+    hotAPI.createRecord("data-v-8142f38c", Component.options)
   } else {
-    hotAPI.reload("data-v-117390fa", Component.options)
+    hotAPI.reload("data-v-8142f38c", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -65353,13 +65353,13 @@ var content = __webpack_require__(181);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(183)("c302be36", content, false, {});
+var update = __webpack_require__(183)("4d715ee6", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-117390fa\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./App.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-117390fa\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./App.vue");
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-8142f38c\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./App.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-8142f38c\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./App.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -65377,7 +65377,7 @@ exports = module.exports = __webpack_require__(182)(false);
 
 
 // module
-exports.push([module.i, "\n#app {\r\n  font-family: 'Exo 2', sans-serif;\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;\r\n  text-align: center;\r\n  color: #2c3e50;\r\n  margin-top: 60px;\n}\nh1, h2 {\r\n  font-weight: 700;\n}\nul {\r\n  list-style-type: none;\r\n  padding: 0;\n}\nli {\r\n  display: inline-block;\r\n  margin: 0 10px;\n}\na {\r\n  color: #42b983;\n}\r\n", ""]);
+exports.push([module.i, "\n#app {\n  font-family: 'Exo 2', sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  text-align: center;\n  color: #2c3e50;\n  margin-top: 60px;\n}\nh1, h2 {\n  font-weight: 700;\n}\nul {\n  list-style-type: none;\n  padding: 0;\n}\nli {\n  display: inline-block;\n  margin: 0 10px;\n}\na {\n  color: #42b983;\n}\n", ""]);
 
 // exports
 
@@ -65776,9 +65776,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   created: function created() {
@@ -65850,26 +65847,7 @@ var render = function() {
     "div",
     { staticClass: "container" },
     [
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "columns" }, [
-          _c("div", { staticClass: "column" }, [
-            _c(
-              "span",
-              { staticClass: "isCentered is-size-1 title" },
-              [
-                _vm._m(0),
-                _vm._v(" "),
-                _c("input-email"),
-                _vm._v(" "),
-                _c("password"),
-                _vm._v(" "),
-                _c("confirm-password")
-              ],
-              1
-            )
-          ])
-        ])
-      ]),
+      _vm._m(0),
       _vm._v(" "),
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "columns" }, [
@@ -65913,7 +65891,7 @@ var render = function() {
           _vm._l(_vm.todos, function(todo) {
             return _c(
               "div",
-              { key: todo.name, staticClass: "column is-6" },
+              { key: todo.name, staticClass: "column is-4" },
               [
                 _c("todo-item", {
                   attrs: {
@@ -65940,7 +65918,15 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("span", [_vm._v("DO"), _c("span", [_vm._v("MAKE")])])
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "columns" }, [
+        _c("div", { staticClass: "column" }, [
+          _c("span", { staticClass: "isCentered is-size-1 title" }, [
+            _c("span", [_vm._v("DO"), _c("span", [_vm._v("MAKE")])])
+          ])
+        ])
+      ])
+    ])
   },
   function() {
     var _vm = this
@@ -65961,7 +65947,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-117390fa", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-8142f38c", module.exports)
   }
 }
 
@@ -65991,7 +65977,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\inputs\\Email.vue"
+Component.options.__file = "resources/assets/js/components/inputs/Password.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -66000,9 +65986,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-d2985bc0", Component.options)
+    hotAPI.createRecord("data-v-6253824c", Component.options)
   } else {
-    hotAPI.reload("data-v-d2985bc0", Component.options)
+    hotAPI.reload("data-v-6253824c", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -66035,40 +66021,36 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-    mounted: function mounted() {
-        this.test();
-    },
-
     props: {
         name: {
-            default: "email"
+            default: "password"
         },
         label: {
-            default: "Email"
+            default: "Password"
         }
     },
     data: function data() {
         return {
-            emailValue: ""
+            password: ""
         };
     },
 
     validations: {
-        emailValue: {
+        password: {
             required: __WEBPACK_IMPORTED_MODULE_0_vuelidate_lib_validators__["required"],
-            email: __WEBPACK_IMPORTED_MODULE_0_vuelidate_lib_validators__["email"]
+            minLength: Object(__WEBPACK_IMPORTED_MODULE_0_vuelidate_lib_validators__["minLength"])(6)
         }
     },
     computed: {
         isRequired: function isRequired() {
-            return !this.$v.emailValue.required && this.$v.$dirty;
+            return !this.$v.password.required && this.$v.$dirty;
         },
-        email: function email() {
-            return !this.$v.emailValue.email && this.$v.$dirty;
+        minLength: function minLength() {
+            return !this.$v.password.minLength && this.$v.$dirty;
+        },
+        hasError: function hasError() {
+            return this.$v.$error;
         }
-    },
-    methods: {
-        test: function test() {}
     }
 });
 
@@ -66490,170 +66472,6 @@ var render = function() {
           {
             name: "model",
             rawName: "v-model",
-            value: _vm.emailValue,
-            expression: "emailValue"
-          }
-        ],
-        staticClass: "input",
-        attrs: { type: "text", name: _vm.name, autofocus: "" },
-        domProps: { value: _vm.emailValue },
-        on: {
-          blur: function($event) {
-            _vm.$v.emailValue.$touch()
-          },
-          input: function($event) {
-            if ($event.target.composing) {
-              return
-            }
-            _vm.emailValue = $event.target.value
-          }
-        }
-      }),
-      _vm._v(" "),
-      _vm.isRequired
-        ? _c("span", { staticClass: "has-text-danger" }, [
-            _vm._v("Field is required.")
-          ])
-        : _vm._e(),
-      _vm._v(" "),
-      _vm.email
-        ? _c("span", { staticClass: "has-text-danger" }, [
-            _vm._v("Insert a valid email.")
-          ])
-        : _vm._e()
-    ])
-  ])
-}
-var staticRenderFns = []
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-d2985bc0", module.exports)
-  }
-}
-
-/***/ }),
-/* 209 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var disposed = false
-var normalizeComponent = __webpack_require__(3)
-/* script */
-var __vue_script__ = __webpack_require__(210)
-/* template */
-var __vue_template__ = __webpack_require__(211)
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "resources\\assets\\js\\components\\inputs\\Password.vue"
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-d20d6372", Component.options)
-  } else {
-    hotAPI.reload("data-v-d20d6372", Component.options)
-  }
-  module.hot.dispose(function (data) {
-    disposed = true
-  })
-})()}
-
-module.exports = Component.exports
-
-
-/***/ }),
-/* 210 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vuelidate_lib_validators__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vuelidate_lib_validators___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vuelidate_lib_validators__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-    props: {
-        name: {
-            default: "password"
-        },
-        label: {
-            default: "Password"
-        }
-    },
-    data: function data() {
-        return {
-            password: ""
-        };
-    },
-
-    validations: {
-        password: {
-            required: __WEBPACK_IMPORTED_MODULE_0_vuelidate_lib_validators__["required"],
-            minLength: Object(__WEBPACK_IMPORTED_MODULE_0_vuelidate_lib_validators__["minLength"])(6)
-        }
-    },
-    computed: {
-        isRequired: function isRequired() {
-            return !this.$v.password.required && this.$v.$dirty;
-        },
-        minLength: function minLength() {
-            return !this.$v.password.minLength && this.$v.$dirty;
-        }
-    },
-    mounted: function mounted() {
-        this.EventBus.$emit('newobject', "oi");
-    }
-});
-
-/***/ }),
-/* 211 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "field" }, [
-    _c("label", { staticClass: "label" }, [_vm._v(_vm._s(_vm.label))]),
-    _vm._v(" "),
-    _c("div", { staticClass: "control" }, [
-      _c("input", {
-        directives: [
-          {
-            name: "model",
-            rawName: "v-model",
             value: _vm.password,
             expression: "password"
           }
@@ -66694,20 +66512,20 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-d20d6372", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-6253824c", module.exports)
   }
 }
 
 /***/ }),
-/* 212 */
+/* 209 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var normalizeComponent = __webpack_require__(3)
 /* script */
-var __vue_script__ = __webpack_require__(213)
+var __vue_script__ = __webpack_require__(210)
 /* template */
-var __vue_template__ = __webpack_require__(214)
+var __vue_template__ = __webpack_require__(211)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -66724,7 +66542,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\inputs\\ConfirmPassword.vue"
+Component.options.__file = "resources/assets/js/components/inputs/ConfirmPassword.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -66733,9 +66551,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-23bd4d7f", Component.options)
+    hotAPI.createRecord("data-v-5cbf218c", Component.options)
   } else {
-    hotAPI.reload("data-v-23bd4d7f", Component.options)
+    hotAPI.reload("data-v-5cbf218c", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -66746,7 +66564,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 213 */
+/* 210 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -66827,7 +66645,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 214 */
+/* 211 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -66936,7 +66754,155 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-23bd4d7f", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-5cbf218c", module.exports)
+  }
+}
+
+/***/ }),
+/* 212 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(3)
+/* script */
+var __vue_script__ = __webpack_require__(213)
+/* template */
+var __vue_template__ = __webpack_require__(214)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/inputs/Text.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-7a124828", Component.options)
+  } else {
+    hotAPI.reload("data-v-7a124828", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 213 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vuelidate_lib_validators__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vuelidate_lib_validators___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vuelidate_lib_validators__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    props: {
+        name: {
+            required: __WEBPACK_IMPORTED_MODULE_0_vuelidate_lib_validators__["required"]
+        },
+        label: {
+            default: "Text"
+        },
+        required: {
+            default: false,
+            required: __WEBPACK_IMPORTED_MODULE_0_vuelidate_lib_validators__["required"]
+        }
+    },
+    data: function data() {
+        return {
+            value: ""
+        };
+    },
+
+    validations: {
+        value: {
+            required: __WEBPACK_IMPORTED_MODULE_0_vuelidate_lib_validators__["required"]
+        }
+    },
+    computed: {
+        isRequired: function isRequired() {
+            if (!this.required) return true;
+            return !this.$v.value.required && this.$v.$dirty;
+        },
+        hasError: function hasError() {
+            return this.$v.$error;
+        }
+    }
+});
+
+/***/ }),
+/* 214 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "field" }, [
+    _c("label", { staticClass: "label" }, [_vm._v(_vm._s(_vm.label))]),
+    _vm._v(" "),
+    _c("div", { staticClass: "control" }, [
+      _c("input", {
+        staticClass: "input",
+        attrs: {
+          type: "text",
+          name: _vm.name,
+          autofocus: "",
+          "v-model": _vm.value
+        },
+        on: {
+          blur: function($event) {
+            _vm.$v.value.$touch()
+          }
+        }
+      }),
+      _vm._v(" "),
+      _vm.isRequired
+        ? _c("span", { staticClass: "has-text-danger" }, [
+            _vm._v("Field is required.")
+          ])
+        : _vm._e()
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-7a124828", module.exports)
   }
 }
 
@@ -66966,7 +66932,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\inputs\\Text.vue"
+Component.options.__file = "resources/assets/js/components/utils/Form.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -66975,9 +66941,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-1fbca9d9", Component.options)
+    hotAPI.createRecord("data-v-729f77d9", Component.options)
   } else {
-    hotAPI.reload("data-v-1fbca9d9", Component.options)
+    hotAPI.reload("data-v-729f77d9", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -66993,49 +66959,28 @@ module.exports = Component.exports
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vuelidate_lib_validators__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vuelidate_lib_validators___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vuelidate_lib_validators__);
 //
 //
 //
 //
 //
 //
-//
-//
-//
-//
-
-
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-    props: {
-        name: {
-            default: "text",
-            required: __WEBPACK_IMPORTED_MODULE_0_vuelidate_lib_validators__["required"]
+    props: ['method', 'action'],
+    methods: {
+        canSubmit: function canSubmit() {
+            this.$children.forEach(function (el, i) {
+                if (el.hasError()) {
+                    return false;
+                }
+            });
+            return true;
         },
-        label: {
-            default: "Text"
-        },
-        model: {
-            default: "value",
-            required: __WEBPACK_IMPORTED_MODULE_0_vuelidate_lib_validators__["required"]
-        }
-    },
-    data: function data() {
-        return {
-            value: ""
-        };
-    },
-
-    validations: {
-        value: {
-            required: __WEBPACK_IMPORTED_MODULE_0_vuelidate_lib_validators__["required"]
-        }
-    },
-    computed: {
-        isRequired: function isRequired() {
-            return !this.$v.value.required && this.$v.$dirty;
+        onSubmit: function onSubmit() {
+            if (this.canSubmit()) {
+                this.$refs.form.submit();
+            }
         }
     }
 });
@@ -67048,32 +66993,21 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "field" }, [
-    _c("label", { staticClass: "label" }, [_vm._v(_vm._s(_vm.label))]),
-    _vm._v(" "),
-    _c("div", { staticClass: "control" }, [
-      _c("input", {
-        staticClass: "input",
-        attrs: {
-          type: "text",
-          name: _vm.name,
-          autofocus: "",
-          "v-model": _vm.model
-        },
-        on: {
-          blur: function($event) {
-            _vm.$v.value.$touch()
-          }
+  return _c(
+    "form",
+    {
+      ref: "form",
+      attrs: { action: _vm.action, method: _vm.method },
+      on: {
+        submit: function($event) {
+          $event.preventDefault()
+          return _vm.onSubmit($event)
         }
-      }),
-      _vm._v(" "),
-      _vm.isRequired
-        ? _c("span", { staticClass: "has-text-danger" }, [
-            _vm._v("Field is required.")
-          ])
-        : _vm._e()
-    ])
-  ])
+      }
+    },
+    [_vm._t("default")],
+    2
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -67081,7 +67015,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-1fbca9d9", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-729f77d9", module.exports)
   }
 }
 
@@ -67111,7 +67045,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\utils\\Form.vue"
+Component.options.__file = "resources/assets/js/components/inputs/Email.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -67120,9 +67054,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-53945846", Component.options)
+    hotAPI.createRecord("data-v-5abfe26d", Component.options)
   } else {
-    hotAPI.reload("data-v-53945846", Component.options)
+    hotAPI.reload("data-v-5abfe26d", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -67138,21 +67072,67 @@ module.exports = Component.exports
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vuelidate_lib_validators__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vuelidate_lib_validators___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vuelidate_lib_validators__);
 //
 //
 //
 //
 //
 //
+//
+//
+//
+//
+//
+//
+
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-    mounted: function mounted() {
-        EventLine.$on('oi', console.log(EventLine));
+    props: {
+        name: {
+            default: "email"
+        },
+        label: {
+            default: "Email"
+        },
+        validateRemote: {
+            default: false,
+            type: Boolean
+        },
+        remoteUrl: {
+            default: ''
+        }
     },
-    methods: {
-        child: function child(data) {
-            console.log('oi');
+    data: function data() {
+        return {
+            emailValue: ""
+        };
+    },
+
+    validations: {
+        emailValue: {
+            required: __WEBPACK_IMPORTED_MODULE_0_vuelidate_lib_validators__["required"],
+            email: __WEBPACK_IMPORTED_MODULE_0_vuelidate_lib_validators__["email"]
+        }
+    },
+    computed: {
+        isRequired: function isRequired() {
+            return !this.$v.emailValue.required && this.$v.$dirty;
+        },
+        email: function email() {
+            return !this.$v.emailValue.email && this.$v.$dirty;
+        },
+        hasError: function hasError() {
+            return this.$v.$error;
+        },
+        alreadyExists: function alreadyExists() {
+            if (!this.validateRemote) return false;
+
+            if (this.emailValue.trim() == "") return false;
+
+            return axios.get(this.remoteUrl, { params: { email: this.emailValue } });
         }
     }
 });
@@ -67165,7 +67145,54 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("form", { attrs: { action: "" } }, [_vm._t("default")], 2)
+  return _c("div", { staticClass: "field" }, [
+    _c("label", { staticClass: "label" }, [_vm._v(_vm._s(_vm.label))]),
+    _vm._v(" "),
+    _c("div", { staticClass: "control" }, [
+      _c("input", {
+        directives: [
+          {
+            name: "model",
+            rawName: "v-model",
+            value: _vm.emailValue,
+            expression: "emailValue"
+          }
+        ],
+        staticClass: "input",
+        attrs: { type: "text", name: _vm.name, autofocus: "" },
+        domProps: { value: _vm.emailValue },
+        on: {
+          blur: function($event) {
+            _vm.$v.emailValue.$touch()
+          },
+          input: function($event) {
+            if ($event.target.composing) {
+              return
+            }
+            _vm.emailValue = $event.target.value
+          }
+        }
+      }),
+      _vm._v(" "),
+      _vm.isRequired
+        ? _c("span", { staticClass: "has-text-danger" }, [
+            _vm._v("Field is required.")
+          ])
+        : _vm._e(),
+      _vm._v(" "),
+      _vm.email
+        ? _c("span", { staticClass: "has-text-danger" }, [
+            _vm._v("Insert a valid email.")
+          ])
+        : _vm._e(),
+      _vm._v(" "),
+      _vm.alreadyExists
+        ? _c("span", { staticClass: "has-text-danger" }, [
+            _vm._v("Email already exists.")
+          ])
+        : _vm._e()
+    ])
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -67173,7 +67200,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-53945846", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-5abfe26d", module.exports)
   }
 }
 

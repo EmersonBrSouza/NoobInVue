@@ -30,13 +30,9 @@ Vue.component('app', require('./components/App.vue'));
 Vue.component('todo-item',TodoItem);
 Vue.component('add-task',AddTask);
 Vue.component('new-task',NewTask);
-Vue.component('input-email',require('./components/inputs/Email.vue'));
 Vue.component('password',require('./components/inputs/Password.vue'));
 Vue.component('confirm-password',require('./components/inputs/ConfirmPassword.vue'));
 Vue.component('text-field',require('./components/inputs/Text.vue'));
-Vue.component('dynamic-form',require('./components/utils/Form.vue'));
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
-Vue.component('component2', require('./components/Component.vue'));
 Vue.component('dynamic-form', require('./components/utils/Form.vue'));
 Vue.component('input-email', require('./components/inputs/Email.vue'));
 

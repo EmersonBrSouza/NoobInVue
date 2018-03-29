@@ -5,9 +5,6 @@
             <div class="column">
             <span class="isCentered is-size-1 title">
                 <span>DO<span>MAKE</span></span>
-                <input-email></input-email>
-                <password></password>
-                <confirm-password></confirm-password>
             </span>
             </div>
         </div>
@@ -32,7 +29,7 @@
             </div>
         </div>
         <div class="columns is-multiline">
-            <div class="column is-6" v-for="todo in todos" :key="todo.name" >
+            <div class="column is-4" v-for="todo in todos" :key="todo.name" >
             <todo-item 
             :name="todo.name" 
             :description="todo.description"

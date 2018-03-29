@@ -24,7 +24,9 @@ Route::get('/component', function () {
 
 Route::get('/task','TaskController@fetchAll');
 Route::put('/task','TaskController@create');
-
+Route::get('/email_exists', function (){
+    return response()->json(true);
+});
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

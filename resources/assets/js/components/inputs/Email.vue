@@ -5,7 +5,7 @@
             <input type="text" class="input" :name="name" @blur="$v.emailValue.$touch()" autofocus v-model="emailValue">
             <span class="has-text-danger" v-if="isRequired">Field is required.</span>
             <span class="has-text-danger" v-if="email">Insert a valid email.</span>
-            <span class="has-text-danger" v-if="unique">Email already exists.</span>
+            <span class="has-text-danger" v-if="alreadyExists">Email already exists.</span>
         </div>
     </div>
 </template>
@@ -38,11 +38,7 @@ export default {
     validations:{
         emailValue:{
             required,
-            email,
-            isUnique(value){
-                if (value === '') return true
-                return axios.get('/verify_email',{params:{email:value}});
-            }
+            email
         }
     },
     computed:{
@@ -55,13 +51,13 @@ export default {
 
         hasError(){
             return this.$v.$error
-        }
-    },
-    watch(){
-        unique:{
-            if(!validateRemote) return true;
+        },
+        alreadyExists(){
+            if(!this.validateRemote) return false;
 
-            if(this.remoteUrl.trim() == "") return true;
+            if(this.emailValue.trim() == "") return false;
+            
+            return axios.get(this.remoteUrl,{params:{email:this.emailValue}});
         }
     }
 }
